@@ -1,17 +1,17 @@
 class Vex < Formula
   desc "A fast, multi-language version manager for macOS"
   homepage "https://github.com/imnotnoahhh/vex"
-  version "1.6.1"
+  version "1.7.0"
   license "MIT"
 
   on_arm do
-    url "https://github.com/imnotnoahhh/vex/releases/download/v1.6.1/vex-aarch64-apple-darwin.tar.gz"
-    sha256 "3bc15c0f2b47b94e5e4378a07452057853c0a6fa4afe69b9fbf5e08d141550ac"
+    url "https://github.com/imnotnoahhh/vex/releases/download/v1.7.0/vex-aarch64-apple-darwin.tar.gz"
+    sha256 "76babf0fbf60412e29359338fe4789af882ee1382ad6fe02241041dfba57e793"
   end
 
   on_intel do
-    url "https://github.com/imnotnoahhh/vex/releases/download/v1.6.1/vex-x86_64-apple-darwin.tar.gz"
-    sha256 "935d62a7bb9286e7f70d50b7fb1fac657af7bb07feeb0d32bc76c1dcf3dda89d"
+    url "https://github.com/imnotnoahhh/vex/releases/download/v1.7.0/vex-x86_64-apple-darwin.tar.gz"
+    sha256 "b2bbece1df8834e7612bf083d79318424e36bde595f2885a54ebb01022d035ae"
   end
 
   def install
